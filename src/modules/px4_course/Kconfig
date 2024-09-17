@@ -1,0 +1,5 @@
+menuconfig MODULES_PX4_COURSE
+	bool "px4_course"
+	default n
+	---help---
+		Enable the Ascend PX4 course module
