@@ -1,0 +1,4 @@
+menuconfig MODULES_COURSE
+    bool "course"
+    default n
+rsource "*/Kconfig"

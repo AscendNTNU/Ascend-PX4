@@ -1,0 +1,6 @@
+menuconfig MODULES_COURSE_HELLO_WORLD
+	depends on MODULES_COURSE
+	bool "hello"
+	default y
+	---help-- -
+		Enable the simple hello world module

@@ -1,0 +1,22 @@
+module_name: PX4 Course, Thread Example
+
+parameters:
+    - group: PX4 Course
+      definitions:
+        COURSE_HI_NUM:
+            description:
+                short: How many times to greet
+                long: |
+                  When running the thread example, the program will say Hello" this many times :)
+            type: int32
+            min: 1
+            max: 20
+            default: 2
+        COURSE_HI_LONG:
+            description:
+                short: Long greeting
+                long: |
+                  If set to false, the program will only say "Hi!".
+                  If set to true, the program will say "Hello, PX4 Course!" instead.
+            type: boolean
+            default: false

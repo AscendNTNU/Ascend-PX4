@@ -1,0 +1,6 @@
+menuconfig MODULES_COURSE_TASK_MODULE
+	depends on MODULES_COURSE
+	bool "task_module"
+	default y
+	---help---
+		Enable the Ascend PX4 course module
